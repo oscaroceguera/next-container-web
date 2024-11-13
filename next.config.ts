@@ -2,7 +2,6 @@ import type { NextConfig } from "next";
 const { DOCS_URL } = process.env;
 
 const nextConfig: NextConfig = {
-  /* config options here */
   async rewrites() {
     return [
       {
