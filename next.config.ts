@@ -4,10 +4,10 @@ const { DOCS_URL } = process.env;
 const nextConfig: NextConfig = {
   async rewrites() {
     return [
-      {
-        source: "/:path*",
-        destination: `/:path*`,
-      },
+      // {
+      //   source: "/:path*",
+      //   destination: `/:path*`,
+      // },
       {
         source: "/tickets",
         destination: `${DOCS_URL}`,
